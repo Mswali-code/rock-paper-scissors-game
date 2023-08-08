@@ -16,7 +16,7 @@ This is a simple implementation of the Rock Paper Scissors game using JavaScript
 
 Try out the game live: [Rock Paper Scissors Game Demo]())
 
-![Gameplay Screenshot](screenshots/screenshot.jpg)
+![Gameplay Screenshot](screenshots/screenshot.png)
 
 ## Code Structure
 
