@@ -13,22 +13,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4.2em;
     background-color: darkslategray;
     margin: 0;
-    color: yellow;
+    color: rgb(27, 170, 70);
+    font-size: 3.8em;
 }
 
 .text {
     text-align: center;
-    font-size: 1.6em;
+    font-size: 2em;
     margin:15px 0;
-    font-style: italic;
+    color: rgb(211, 211, 20);
+    font-weight: 900;
 }
 
 #score {
     margin: 0 ;
-    color: yellow;
+    color: white;
     font-size: 65px;
     font-weight: bold;
     display: flex;
@@ -56,6 +57,8 @@
     font-size: 30px;
     margin-bottom: 25px;
     font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(5, 5, 63);
 }
 
 .player-buttons,
@@ -73,15 +76,33 @@ button {
 }
 
 button.player-selected {
-    background-color: red; 
+    background-color: rgb(199, 155, 155); 
     color: white;
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
   
 button.computer-selected {
-    background-color: #4caf50;
+    background-color: green;
     color: white;
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
+
+.player-buttons button:hover {
+    background-color: red; 
+    color: black; 
+}
+  
+
+.computer-buttons button:hover {
+    background-color: green; 
+    color: black; 
+}        
+  
+  
+  
+  
+  
+  
+  
