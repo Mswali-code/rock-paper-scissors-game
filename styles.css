@@ -1,0 +1,87 @@
+.body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("game-images/brick.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.2em;
+    background-color: darkslategray;
+    margin: 0;
+    color: yellow;
+}
+
+.text {
+    text-align: center;
+    font-size: 1.6em;
+    margin:15px 0;
+    font-style: italic;
+}
+
+#score {
+    margin: 0 ;
+    color: yellow;
+    font-size: 65px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7em;
+}
+  
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3em 0;
+}
+
+.player-container, .computer-container {
+    display:flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: darkslategray;
+}
+
+.player, .computer{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.player-buttons,
+.computer-buttons {
+    padding-bottom: 50px;
+}
+
+button {
+    font-size: 30px;
+}
+
+.enlarge {
+    transform: scale(1.1); 
+    transition: transform 0.2s ease-in-out;
+}
+
+button.player-selected {
+    background-color: red; 
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+  
+button.computer-selected {
+    background-color: #4caf50;
+    color: white;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
