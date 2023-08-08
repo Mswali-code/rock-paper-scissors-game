@@ -1,6 +1,6 @@
 .body {
     font-family: 'Courier New', Courier, monospace;
-    background-image: url("game-images/brick.jpg");
+    background-image: url("game-image/brick.jpg");
     background-size: cover;
     background-repeat: no-repeat; 
     background-attachment: fixed; 
